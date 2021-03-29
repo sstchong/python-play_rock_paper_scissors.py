@@ -3,7 +3,7 @@ import random
 comp_wins = 0
 user_wins = 0
 
-# Why do i need to put in this first bit comp_wins and users wins = 0???
+    # Why do i need to put in this first bit comp_wins and users wins = 0???
 
 def Choose_Option() :
     user_choice = input ("Choose Rock, Paper or Scissors: ")
@@ -18,7 +18,7 @@ def Choose_Option() :
         Choose_option
     return user_choice
 
-# I would force the user to choose specifically
+    # I would force the user to choose specifically
 
 def Computer_Option():
     comp_choice = random.randint(1,3)
@@ -36,7 +36,7 @@ while True:
     comp_choice = Computer_Option()
     print("")
 
-# Why do i need to use the "while true" here?
+    # Why do i need to use the "while true" here?
 
     if user_choice == "r":
         if comp_choice == "r":
@@ -87,8 +87,8 @@ while True:
     else:
         break
     
- # Problem if there is a space with the answers (i.e " Y") Is there a better way to do it?
+    # Problem if there is a space with the answers (i.e " Y") Is there a better way to do it?
  
- # Need an ultimate ending text saying overall "overall you win or lose (with the numbers of wins/losses). thank you for playing"
+     # Need an ultimate ending text saying overall "overall you win or lose (with the numbers of wins/losses). thank you for playing"
  
- # a restart to fully restart the game even start from 0,0 wins and losses (if break can i restart?) 
+     # a restart to fully restart the game even start from 0,0 wins and losses (if break can i restart?) 
