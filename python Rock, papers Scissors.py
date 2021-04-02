@@ -7,7 +7,7 @@ user_wins = 0
 # Why do i need to put in this first bit comp_wins and users wins = 0???
 
 def Choose_Option() :
-    user_choice = input ("Choose Rock, Paper or Scissors: ")
+    user_choice = input ("Please Choose R,P,S (Rock, Paper or Scissors respectively:")
     if user_choice in ["Rock", "rock", "r", "R"]:
         user_choice = "r"
     elif user_choice in ["Paper", "paper", "p", "P"]:
