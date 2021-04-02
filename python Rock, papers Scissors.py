@@ -7,7 +7,7 @@ user_wins = 0
 # Why do i need to put in this first bit comp_wins and users wins = 0???
 
 def Choose_Option() :
-    user_choice = input ("Please Choose R,P,S (Rock, Paper or Scissors respectively:")
+    user_choice = input ("Please input either R,P or S (Rock, Paper or Scissors respectively:")
     if user_choice in ["Rock", "rock", "r", "R"]:
         user_choice = "r"
     elif user_choice in ["Paper", "paper", "p", "P"]:
@@ -15,8 +15,7 @@ def Choose_Option() :
     elif user_choice in ["Scissors", "scissors", "s", "S"]:
         user_choice = "s"
     else:
-        print ("I don't understand, try again.")
-        Choose_option
+        print ("Please ONLY choose R,P or S.")
     return user_choice
 
 # Change the print prompt error of user choice. Maybe use drop down menu or more description for the users
